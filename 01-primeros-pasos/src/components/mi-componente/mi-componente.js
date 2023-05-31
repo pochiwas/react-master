@@ -5,7 +5,7 @@ import React from "react";
 const MiComponente = () => {
 
     return(<>
-    <div className="mi-componente">
+    <div classNameName="mi-componente">
         <h1>Hola mundo</h1>
         
             <ul>

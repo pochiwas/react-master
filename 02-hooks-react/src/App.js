@@ -7,9 +7,9 @@ function App() {
 
   const fecha = (new Date().getFullYear())
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div classNameName="App">
+      <header classNameName="App-header">
+        <img src={logo} classNameName="App-logo" alt="logo" />
       <h1>Estados de los componentes</h1>
       <PrimerEstado/>
       <PrimerEjercicio year={fecha}/>

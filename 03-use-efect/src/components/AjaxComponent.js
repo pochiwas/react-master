@@ -69,19 +69,19 @@ export const AjaxComponent = () => {
 
   if(errores !== ""){
 
-    return <div className="error">Ha ocurrido un error : {errores}</div>;
+    return <div classNameName="error">Ha ocurrido un error : {errores}</div>;
 
   }else if (cargando === true) {
     //return cuando se esta cargando la informacion
-    return <div className="cargando">Cargando Datos .....</div>;
+    return <div classNameName="cargando">Cargando Datos .....</div>;
   } else if(cargando === false && errores === "") {
     //return de caso exitoso
     return (
-      <div className="listado">
+      <div classNameName="listado">
         <h2>Listado de usuarios via ajax</h2>
 
         <ul>
-          <ol className="usuario">
+          <ol classNameName="usuario">
             {usuarios.map((usuario) => {
               // console.log(usuario);
               return (

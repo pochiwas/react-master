@@ -4,9 +4,9 @@ import { FormularioComponent } from './components/FormularioComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div classNameName="App">
+      <header classNameName="App-header">
+        <img src={logo} classNameName="App-logo" alt="logo" />
       <FormularioComponent/> 
       </header>
     </div>

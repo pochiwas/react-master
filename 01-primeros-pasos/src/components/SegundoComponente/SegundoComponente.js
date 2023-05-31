@@ -4,7 +4,7 @@ export const SegundoComponente = () => {
   const libros = [];
 
   return (
-    <div className="segundo-componente">
+    <div classNameName="segundo-componente">
       <h1>Segundo Componente</h1>
 
       <ul>

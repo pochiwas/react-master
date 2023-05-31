@@ -6,14 +6,14 @@ import {TercerComponente} from './components/TercerComponente/TercerComponente'
 import {Eventos} from './components/eventos/Eventos'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div classNameName="App">
+      <header classNameName="App-header">
+        <img src={logo} classNameName="App-logo" alt="logo" />
         <p>
           Comenzando master en react.
         </p>
 
-        <div className='componentes'>
+        <div classNameName='componentes'>
           
         <TercerComponente nombre="Elias" apellido="Yanez"/>
         <Eventos/>
