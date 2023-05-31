@@ -18,22 +18,19 @@ export const AgregarComponent = ({setListadoState}) => {
       titulo,
       descripcion,
     };
-
-
     //Guardar estado de la pelicula
     setPeliculaState(objPelicula);
 
     //actualizar el estado del listado principal
     setListadoState(elementos =>{
-      console.log('elementos --->',elementos)
-      
-      return [...elementos,objPelicula];
+      console.log('array elementos --->',[...elementos,objPelicula])
+
+      return[...elementos,objPelicula];
     })
     //guardar en el almacenamiento local
     guardarStorage("pelicula",objPelicula)
   
   };
-
 
   return (
     <>

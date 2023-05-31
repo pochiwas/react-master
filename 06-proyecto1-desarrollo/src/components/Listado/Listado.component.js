@@ -9,9 +9,7 @@ export const ListadoComponent = ({ listadoState, setListadoState }) => {
 
   const conseguirPeliculas = () => {
     let elementos = JSON.parse(localStorage.getItem("pelicula"));
-
     console.log("pelicula del localstorage", elementos);
-
     setListadoState(elementos);
   };
 
@@ -19,7 +17,7 @@ export const ListadoComponent = ({ listadoState, setListadoState }) => {
     <>
       {console.log("listado state en listado component", listadoState)}
 
-      {listadoState != null  ? (
+      {listadoState != null ? (
         listadoState.map((peli) => {
           return (
             <article key={peli.id} className="peli-item">
