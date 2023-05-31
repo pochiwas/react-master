@@ -3,10 +3,8 @@
 }
 
 .App-logo {
-  height: 20vmin;
+  height: 10vmin;
   pointer-events: none;
- 
- 
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,6 +13,24 @@
   }
 }
 
+ol {
+  list-style-position: inside;
+}
+
+.cargando {
+  background: red;
+  border: 2px black solid;
+}
+.listado{
+  background: white;
+  color: black;
+  border: 2px solid yellow;
+}
+
+#usuario{
+  background: lightcoral;
+  
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
