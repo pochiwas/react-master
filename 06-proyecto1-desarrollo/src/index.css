@@ -188,6 +188,20 @@ input[type="button"]{
   margin-top: 10px;
 }
 
+.form-editar label{
+  background: #d1defa;
+  align-items: normal;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 6px #ddd;
+}
+
+
+
 /*ESTILOS PARA EL PIE DE PÁGINA*/
 .footer{
   grid-area: footer;
